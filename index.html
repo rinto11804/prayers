@@ -6,11 +6,19 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Prayer</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/vue@3.2.20/dist/vue.global.js"></script>
     </head>
 
     <body>
-
-        <script src="main.js" charset="utf-8"></script>
+        <div id="app">
+            <Counter></Counter>
+        </div>
+        <script src="main.js"></script>
+        <script src="./componets/Counter.js"></script>
+        <script>
+            const mountedApp = app.mount('#app')
+        </script>
     </body>
 
 </html>
