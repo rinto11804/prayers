@@ -9,4 +9,6 @@ const app = Vue.createApp({
 })
 
 
-
+//fetch('https://demo1api.herokuapp.com/')
+//    .then(res => res.json())
+//    .then(data => console.log(data))
